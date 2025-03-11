@@ -20,7 +20,7 @@ module.exports = {
                 "/* $& */"
             );
             // Ensure the environment variable is set
-            process.env.LD_LIBRARY_PATH = "/opt/app-root/src/extracted/libs/lib64";
+            process.env.LD_LIBRARY_PATH = "/app/libs/extracted/libs/lib64";
             // Set standalone executable path
             console.log("🚀 Launching browser...");
             console.log("📌 Current LD_LIBRARY_PATH:", process.env.LD_LIBRARY_PATH || "Not Set");
