@@ -66,7 +66,7 @@ app.use(express.urlencoded({ limit: '100mb', extended: true }));
 
 async function startApp() {
   try {
-    await connectToMongoDB();
+    // await connectToMongoDB();
     console.log('MongoDB Connected Successfully');
 
     // Start Express server after successful DB connection
